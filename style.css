@@ -1,5 +1,6 @@
 .bg-teal {
   background-color: rgb(1, 50, 50);
+  height: 100px;
 }
 
 .navbar-toggler:focus,
@@ -7,4 +8,22 @@
 .navbar-toggler-icon:focus {
   outline: none;
   box-shadow: none;
+}
+
+.main-wrapper {
+  height: calc(100vh - 100px);
+}
+
+.cover {
+  background-image: url("./images/BG1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.glass-box {
+  width: 50%;
+  height: 200px;
+  background-color: white;
+  opacity: 0.3;
 }
