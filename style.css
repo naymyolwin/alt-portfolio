@@ -3,6 +3,16 @@
   height: 100px;
 }
 
+.text-teal {
+  color: rgb(1, 50, 50);
+  text-decoration: none;
+}
+
+.text-teal:hover {
+  color: rgb(1, 50, 50);
+  text-decoration: underline;
+}
+
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
@@ -28,13 +38,11 @@
   opacity: 0.3;
 }
 
-.card-img-top {
+.card-img-top-adj {
   max-width: 350px;
+  min-height: 205px;
+  object-fit: cover;
 }
-
-/* .card-h {
-  flex-direction: row;
-} */
 
 @media screen and (min-width: 768px) {
   .card-h {
@@ -42,10 +50,4 @@
     justify-content: center;
     align-items: center;
   }
-}
-
-.skill-ul {
-}
-
-.skill-li {
 }
