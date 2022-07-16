@@ -27,3 +27,19 @@
   background-color: white;
   opacity: 0.3;
 }
+
+.card-img-top {
+  max-width: 350px;
+}
+
+/* .card-h {
+  flex-direction: row;
+} */
+
+@media screen and (min-width: 768px) {
+  .card-h {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
