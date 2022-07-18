@@ -60,7 +60,9 @@
   background-color: white;
   opacity: 0.3;
 }
-
+.card {
+  overflow: hidden;
+}
 .card-img-top-adj {
   max-width: 350px;
   min-height: 205px;
