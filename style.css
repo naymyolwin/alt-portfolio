@@ -9,6 +9,9 @@
 .navbar-toggler:not(.collapsed) > .navbar-toggler-icon {
   display: none;
 }
+.underline:hover {
+  text-decoration: underline;
+}
 
 .bg-teal {
   background-color: rgb(1, 50, 50);
