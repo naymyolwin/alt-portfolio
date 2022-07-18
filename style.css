@@ -43,7 +43,8 @@
 }
 
 .main-wrapper {
-  height: calc(100vh - 100px);
+  height: 100vh;
+  /* height: calc(100vh - 100px); */
 }
 
 .cover {
